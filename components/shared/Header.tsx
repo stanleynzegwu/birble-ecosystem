@@ -70,9 +70,9 @@ const Header = () => {
             </h2>
           </div>
         </div>
-        <div className=" flex flex-col items-center max-md:ml-14 ">
+        <div className=" flex flex-col items-center max-md:ml-14 self-end">
           <Image
-            className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain"
+            className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
             src={"/images/Visual.svg"}
             alt="visual"
             width={500}
