@@ -177,6 +177,36 @@
   }
 }
 
+/* Default background image for screens smaller than 1024px */
+.callToAction_BgImage {
+  background-image: url('../public/images/bgMid.png');
+  transition: background-image 0.3s ease-in-out; 
+}
+
+/* Background image for screens 1024px and larger */
+@media screen and (min-width: 1024px) {
+  .callToAction_BgImage {
+    background-image: url('../public/images/bgLarge.png');
+    transition: background-image 0.3s ease-in-out; 
+  }
+}
+
+/* Hover effect for screens smaller than 1024px */
+.callToAction_BgImage:hover {
+  /* Change the background image when hovered */
+  background-image: url('../public/images/bgMid_hover.png');
+  transition: background-image 0.3s ease-in-out; 
+}
+
+/* Hover effect for screens 1024px and larger */
+@media screen and (min-width: 1024px) {
+  .callToAction_BgImage:hover {
+    /* Change the background image when hovered */
+    background-image: url('../public/images/bgLarge_hover.png');
+    transition: background-image 0.3s ease-in-out; 
+  }
+}
+
 @layer base {
   * {
     @apply border-border;

@@ -9,7 +9,13 @@ import {
 
 const EcosystemCarousel = () => {
   return (
-    <Carousel className="min-h-screen z-0 p-10">
+    <Carousel className=" min-h-screen z-0 p-10 flex flex-col justify-center">
+      {/* absolutely positione lef & right opacity */}
+      <div className="absolute top-0 left-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-r from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
+      <div className="absolute top-0 right-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-l from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
+      {/* absolutely postioned bgcolor */}
+      {/* Absolutely positioned Div */}
+      <div className="absolute hidden md:block right-0 bottom-0 transform -translate-y-1/4 w-72 h-36  rounded-full bg-blue-900 blur-7xl overflow-hidden z-20" />
       <div className="flex flex-col gap-6">
         <CarouselContent className="">
           {[
@@ -51,10 +57,10 @@ const EcosystemCarousel = () => {
             },
           ].map(({ iconPath, header, subheader }, index) => (
             <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
-              <div className="relative space-y-6 rounded-3xl bg-[#412191] p-6 h-96">
+              <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96">
                 <Image
                   className="absolute top-0 left-0 w-20 h-20 -translate-y-1/2 translate-x-1/2 z-50"
-                  src={`/icons/${iconPath}.svg`}
+                  src={`/icons/${iconPath}.png`}
                   alt={iconPath}
                   width={50}
                   height={50}
