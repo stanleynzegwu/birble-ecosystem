@@ -11,8 +11,8 @@ const EcosystemCarousel = () => {
   return (
     <Carousel className="min-h-screen z-0 p-4 sm:p-10 flex flex-col justify-center">
       {/* absolutely positione lef & right opacity */}
-      <div className="absolute top-0 left-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-r from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
-      <div className="absolute top-0 right-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-l from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
+      <div className="hidden md:block absolute top-0 left-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-r from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
+      <div className="hidden md:block absolute top-0 right-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-l from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
       {/* absolutely postioned bgcolor */}
       {/* Absolutely positioned Div */}
       <div className="absolute hidden md:block right-0 bottom-0 transform -translate-y-1/4 w-72 h-36  rounded-full bg-blue-900 blur-7xl overflow-hidden z-20" />
