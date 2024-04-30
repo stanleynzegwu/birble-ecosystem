@@ -9,7 +9,7 @@ import {
 
 const EcosystemCarousel = () => {
   return (
-    <Carousel className=" min-h-screen z-0 p-10 flex flex-col justify-center">
+    <Carousel className="min-h-screen z-0 p-10 flex flex-col justify-center">
       {/* absolutely positione lef & right opacity */}
       <div className="absolute top-0 left-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-r from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
       <div className="absolute top-0 right-0 z-20 h-full w-20 lg:w-24 bg-gradient-to-l from-[#0a0a29] from-10% via-[#0a0a29] via-20% to-transparent to-90%" />
@@ -56,10 +56,10 @@ const EcosystemCarousel = () => {
                 "Collaborating with Hugging Face ensures high standards for AI models in our ecosystem. We use their tools for fine-tuning and deploying impactful models, streamlining our development process. This partnership allows us to focus on innovation and keep our AI solutions at the forefront of technological advancement.",
             },
           ].map(({ iconPath, header, subheader }, index) => (
-            <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96">
                 <Image
-                  className="absolute top-0 left-0 w-20 h-20 -translate-y-1/2 translate-x-1/2 z-50"
+                  className="absolute top-0 left-0 w-16 h-16 md:w-20 md:h-20 -translate-y-1/2 translate-x-1/2 z-50"
                   src={`/icons/${iconPath}.png`}
                   alt={iconPath}
                   width={50}
