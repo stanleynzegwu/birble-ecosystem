@@ -65,11 +65,11 @@ const CallToAction = () => {
     <div className="relative min-h-screen">
       {/* Absolutely positioned Div */}
       <div className="absolute hidden md:block left-0 bottom-1/2 transform translate-y-1/2 w-56 h-32 lg:h-40 rounded-full bg-violet-900 blur-7xl overflow-hidden z-0" />
-      <div className="w-full h-screen p-10 md:px-20 max-w-xl lg:max-w-5xl mx-auto flex flex-col justify-center">
-        <div className="callToAction_BgImage bg-cover object-cover relative flex flex-col max-lg:justify-end lg:flex-row rounded-3xl h-[40rem] lg:h-96 p-6 w-full z-20 ">
-          <div className="p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-600 flex flex-col justify-end">
-            <div className="space-y-8">
-              <div className="space-y-4">
+      <div className="w-full h-screen p-4 sm:p-10 md:px-20 max-w-xl lg:max-w-5xl mx-auto flex flex-col justify-center">
+        <div className="callToAction_BgImage bg-cover object-cover relative flex flex-col max-lg:justify-end lg:flex-row rounded-3xl h-[40rem] lg:h-96 p-3 sm:p-6 w-full z-20 ">
+          <div className="p-4 sm:p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-600 flex flex-col justify-end">
+            <div className="space-y-4 sm:space-y-8">
+              <div className="space-y-2 sm:space-y-4">
                 <h3 className="text-base md:text-lg">
                   Bring your space to live with <span className="font-bold">Birble AI</span>
                 </h3>

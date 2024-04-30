@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FeatureSection = () => {
   return (
-    <section className="relative min-h-screen p-10 space-y-32">
+    <section className="relative min-h-screen p-4 sm:p-10 space-y-32">
       <div className="absolute hidden md:block left-0 bottom-0 -translate-y-1/4 w-56 h-32 lg:h-40 rounded-full bg-violet-900 blur-7xl overflow-hidden z-0" />
       <div className=" max-w-sm md:max-w-md space-y-4 mx-auto ">
         <h3 className="px-2 text-center text-xl md:text-2xl leading-normal md:leading-snug">

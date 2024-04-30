@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HexasphereSection = () => {
   return (
-    <section className="min-h-screen p-10 flex flex-col items-center lg:flex-row lg:justify-center gap-10 lg:gap-16">
+    <section className="min-h-screen p-4 sm:p-10 flex flex-col items-center lg:flex-row lg:justify-center gap-10 lg:gap-16">
       <div className="">
         <Image
           className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
