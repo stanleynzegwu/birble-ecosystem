@@ -9,7 +9,7 @@ import {
 
 const EcosystemCarousel = () => {
   return (
-    <Carousel className="min-h-screen z-0 p-10 bg-red-200">
+    <Carousel className="min-h-screen z-0 p-10">
       <div className="flex flex-col gap-6">
         <CarouselContent className="">
           {[
@@ -51,7 +51,7 @@ const EcosystemCarousel = () => {
             },
           ].map(({ iconPath, header, subheader }, index) => (
             <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
-              <div className="relative space-y-6 rounded-3xl bg-[#3A3A4D] p-6 h-96">
+              <div className="relative space-y-6 rounded-3xl bg-[#412191] p-6 h-96">
                 <Image
                   className="absolute top-0 left-0 w-20 h-20 -translate-y-1/2 translate-x-1/2 z-50"
                   src={`/icons/${iconPath}.svg`}
