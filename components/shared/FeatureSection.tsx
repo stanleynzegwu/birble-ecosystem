@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FeatureSection = () => {
   return (
-    <section className="relative min-h-screen p-4 sm:p-10  flex flex-col justify-center gap-32 ">
+    <section className="relative p-4 sm:p-10  flex flex-col justify-center gap-32">
       <div className="absolute hidden md:block left-0 bottom-0 -translate-y-1/4 w-56 h-32 lg:h-40 rounded-full bg-violet-900 blur-7xl overflow-hidden z-0" />
       <div className=" max-w-sm md:max-w-md 2xl:max-w-2xl space-y-4 mx-auto ">
         <h3 className="px-2 text-center text-xl md:text-2xl leading-normal md:leading-snug">
@@ -16,10 +16,10 @@ const FeatureSection = () => {
         </p>
       </div>
       {/* ////////// */}
-      <div className="relative max-w-sm md:max-w-lg lg:max-w-2xl space-y-4 mx-auto p-4 border-gray-400 border-[.5px]">
+      <div className="relative max-w-sm md:max-w-lg lg:max-w-2xl mx-auto p-4 border-gray-400 border-[.5px]">
         {[
           "left-0 top-0 -translate-x-1/2 -translate-y-1/2",
-          "right-0 top-0 translate-x-1/2 -translate-y-[1.63rem]",
+          "right-0 top-0 translate-x-1/2 -translate-y-1/2",
           "left-0 bottom-0 -translate-x-1/2 translate-y-1/2",
           "right-0 bottom-0 translate-x-1/2 translate-y-1/2",
         ].map((className, index) => (
@@ -33,7 +33,7 @@ const FeatureSection = () => {
             loading="lazy"
           />
         ))}
-        <h3 className="px-2 text-center text-xl md:text-2xl leading-normal md:leading-snug">
+        <h3 className="px-2 mb-4 text-center text-xl md:text-2xl leading-normal md:leading-snug">
           Building for the Next<span className="text-green-200">Gen</span>
         </h3>
         <p className="text-gray-400 max-w-xl mx-auto text-center leading-relaxed">

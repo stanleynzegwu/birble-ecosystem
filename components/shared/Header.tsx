@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="relative flex flex-col justify-center w-full h-full py-6 z-50 ">
+    <header className="relative min-h-screen flex flex-col justify-center w-full h-full z-50">
       <div className=" flex flex-col lg:flex-row lg:justify-center items-center lg:gap-20 ">
         <div className=" flex flex-col items-center max-lg:mr-60 max-md:mr-20">
           <div className="">
