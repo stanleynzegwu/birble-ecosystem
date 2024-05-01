@@ -12,7 +12,7 @@ const Header = () => {
             </h2>
           </div>
         </div>
-        <div className="relative flex flex-col items-center max-md:ml-14 md:self-end">
+        <div className="relative flex flex-col items-center md:max-lg:ml-14 md:self-end">
           <Image
             className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
             src={"/images/Visual.svg"}
@@ -24,16 +24,16 @@ const Header = () => {
 
           {/* Pyramid And Torus Image */}
           <Image
-            className="bottom-0 left-0 -translate-x-14 md:-translate-x-20 absolute w-20 h-20 md:w-28 md:h-28 object-contain"
-            src={"/images/pyramid.svg"}
+            className="bottom-0 left-0 -translate-x-6 sm:-translate-x-8 md:-translate-x-20 max-md:translate-y-10 absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
+            src={"/images/pyramid.png"}
             alt="visual"
             width={500}
             height={500}
             loading="lazy"
           />
           <Image
-            className="top-0 right-0 md:left-0 -translate-y-32 md:translate-x-1/4 lg:-translate-y-20 absolute w-20 h-20 md:w-28 md:h-28 object-contain"
-            src={"/images/torus.svg"}
+            className="top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 md:translate-x-1/4  absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
+            src={"/images/torus.png"}
             alt="visual"
             width={500}
             height={500}
@@ -52,6 +52,14 @@ const Header = () => {
           <Image
             className="absolute bottom-0 -left-6 md:-left-10 lg:-left-0 -translate-x-full w-20 h-20 md:w-40 md:h-40 object-contain"
             src={"/images/headerAsset2.png"}
+            alt="blur"
+            width={500}
+            height={500}
+            loading="lazy"
+          />
+          <Image
+            className="absolute md:hidden bottom-0 right-0 w-20 h-20 object-contain"
+            src={"/images/headerAsset4.png"}
             alt="blur"
             width={500}
             height={500}

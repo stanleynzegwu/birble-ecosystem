@@ -35,19 +35,19 @@ import Image from "next/image";
 
 export default function SparklesPreview() {
   return (
-    <section className="min-h-screen relative w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="w-full absolute inset-0 h-screen">
+    <section className="min-h-screen relative w-full flex flex-col items-center justify-center overflow-hidden ">
+      <div className="w-full absolute inset-0 ">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
           minSize={0.6}
           maxSize={1.4}
-          particleDensity={100}
+          particleDensity={70}
           className="w-full h-full"
           particleColor="#FFFFFF"
         />
       </div>
-      <div className="min-h-screen p-4 sm:p-10 flex flex-col items-center lg:flex-row lg:justify-center max-lg:justify-between lg:gap-16 ">
+      <div className="min-h-screen p-4 sm:p-10 flex flex-col items-center lg:flex-row lg:justify-center max-lg:justify-between lg:gap-16">
         <div className="">
           <Image
             className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
