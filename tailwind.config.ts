@@ -138,6 +138,16 @@ const config = {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
+        blur: {
+          purple: "hsl(var(--blur-1))",
+          purpleTwo: "hsl(var(--secondary-purple))",
+          pink: "hsl(var(--blur-2))",
+          blue: "hsl(var(--blur-3))",
+        },
+        blueGray: {
+          "bg-1": "hsl(var(--blueGray-bg-1))",
+          "bg-2": "hsl(var(--blueGray-bg-2))",
+        },
         violet: {
           50: "#fdf2ff",
           100: "#fbe5ff",
