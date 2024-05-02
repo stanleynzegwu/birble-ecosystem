@@ -25,7 +25,7 @@ export default function Home() {
       <Header />
       <FeatureSection />
       <HexasphereSection />
-      <EcosystemCarousel />
+      {/* <EcosystemCarousel /> */}
       <CallToAction />
     </main>
   );
