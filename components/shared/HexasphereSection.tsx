@@ -7,7 +7,7 @@ import EcosystemCarousel from "./EcosystemCarousel";
 
 export default function SparklesPreview() {
   return (
-    <div className="relative p-4 sm:p-10 flex flex-col gap-16">
+    <section className="relative p-4 sm:p-10 flex flex-col gap-16">
       <div className="w-full absolute inset-0 h-[75%]">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -41,6 +41,6 @@ export default function SparklesPreview() {
         </div>
       </div>
       <EcosystemCarousel />
-    </div>
+    </section>
   );
 }

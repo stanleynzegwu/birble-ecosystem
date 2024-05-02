@@ -71,6 +71,8 @@ const EcosystemCarousel = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
+
+        {/* Buttons */}
         <div className="max-w-sm mx-auto space-x-4">
           <CarouselPrevious className="w-12 h-12" />
           <CarouselNext className="w-12 h-12" />

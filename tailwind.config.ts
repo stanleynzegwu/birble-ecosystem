@@ -175,6 +175,7 @@ const config = {
           950: "#271362",
         },
         darkGrayishBlue:"#161636",
+        mintGreen:"#7AE2D0",
       },
       blur: {
         "4xl": "70px",

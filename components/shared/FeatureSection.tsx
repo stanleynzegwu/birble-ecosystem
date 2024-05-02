@@ -25,7 +25,7 @@ const FeatureSection = () => {
         ].map((className, index) => (
           <Image
             key={index}
-            className={`absolute w-5 h-5 object-contain ${className}`}
+            className={`absolute w-5 h-5 lg:w-6 lg:h-6 object-contain ${className}`}
             src={"/icons/plus-icon.svg"}
             alt="plus icon"
             width={50}
@@ -34,7 +34,7 @@ const FeatureSection = () => {
           />
         ))}
         <h3 className="px-2 mb-4 text-center text-xl md:text-2xl leading-normal md:leading-snug">
-          Building for the Next<span className="text-green-200">Gen</span>
+          Building for the Next<span className="text-mintGreen">Gen</span>
         </h3>
         <p className="text-gray-400 max-w-xl mx-auto text-center leading-relaxed">
           Birble AI is committed to fostering the next generation of blockchain innovators. We're
