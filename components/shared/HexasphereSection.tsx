@@ -7,7 +7,7 @@ import EcosystemCarousel from "./EcosystemCarousel";
 
 export default function SparklesPreview() {
   return (
-    <div className="relative p-4 sm:p-10">
+    <div className="relative p-4 sm:p-10 flex flex-col gap-16">
       <div className="w-full absolute inset-0 h-[75%]">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -30,8 +30,8 @@ export default function SparklesPreview() {
             loading="lazy"
           />
         </div>
-        <div className="max-w-sm ">
-          <h2>
+        <div className="max-w-sm">
+          <h2 className="mb-4 lg:mb-5">
             The <br /> Birble <br /> Hexasphere
           </h2>
           <p className="text-gray-400">
