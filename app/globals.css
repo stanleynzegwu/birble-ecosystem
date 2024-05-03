@@ -177,18 +177,6 @@
   }
 }
 
-/* Default background image for screens smaller than 1024px */
-.callToAction_BgImage {
-  background-image: url('../public/images/bgMid.png');
-}
-
-/* Background image for screens 1024px and larger */
-@media screen and (min-width: 1024px) {
-  .callToAction_BgImage {
-    background-image: url('../public/images/bgLarge.png'); 
-  }
-}
-
 @layer base {
   * {
     @apply border-border;
