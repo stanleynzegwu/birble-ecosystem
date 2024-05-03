@@ -4,6 +4,7 @@ import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 import Image from "next/image";
 import EcosystemCarousel from "./EcosystemCarousel";
+import HexasphereSvg from "./HexasphereSvg";
 
 export default function SparklesPreview() {
   return (
@@ -21,14 +22,15 @@ export default function SparklesPreview() {
       </div>
       <div className="relative flex flex-col items-center lg:flex-row lg:min-h-screen lg:justify-center gap-6 lg:gap-16">
         <div className="">
-          <Image
+          {/* <Image
             className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
             src={"/images/hexasphere.svg"}
             alt="visual"
             width={500}
             height={500}
             loading="lazy"
-          />
+          /> */}
+          <HexasphereSvg />
         </div>
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">
