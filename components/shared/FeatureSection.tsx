@@ -26,7 +26,7 @@ const FeatureSection = () => {
           <Image
             key={index}
             className={`absolute w-5 h-5 lg:w-6 lg:h-6 object-contain ${className}`}
-            src={"/icons/plus-icon.svg"}
+            src={"/icons/plus-icon.png"}
             alt="plus icon"
             width={50}
             height={50}
