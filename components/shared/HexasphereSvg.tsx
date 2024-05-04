@@ -824,67 +824,72 @@ const HexasphereSvg = ({ className }: { className: string }) => (
       animate={{ rotate: 360 }}
       transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
     >
-      <motion.g filter="url(#f)">
-        <motion.path fill="url(#g)" d="M442 171h40v40h-40z" />
-      </motion.g>
-      <motion.g filter="url(#h)">
-        <path fill="url(#i)" d="M368 517h38v38h-38z" />
-      </motion.g>
-      <motion.g filter="url(#j)">
-        <motion.path fill="url(#k)" d="M507 374h40v40h-40z" />
-      </motion.g>
-      <motion.g filter="url(#x)">
-        <path fill="url(#y)" d="M109 255h40v50h-40z" />
-      </motion.g>
-      <motion.g filter="url(#r)">
-        <motion.g filter="url(#s)">
-          <circle cx={187} cy={490} r={20} fill="#111323" fillOpacity={0.75} />
-          <circle cx={187} cy={490} r={19.793} stroke="#151933" strokeWidth={0.414} />
-        </motion.g>
-        <motion.g filter="url(#t)">
-          <circle cx={186.902} cy={489.901} r={17.143} fill="#0C0D1A" fillOpacity={0.5} />
-          <circle cx={186.902} cy={489.901} r={17.143} fill="url(#u)" fillOpacity={0.2} />
-          <circle cx={186.902} cy={489.901} r={16.936} stroke="#222336" strokeWidth={0.414} />
-        </motion.g>
-        <motion.g filter="url(#v)">
-          <circle cx={186.804} cy={489.801} r={14.286} fill="#1F2125" />
-        </motion.g>
-        <path fill="url(#w)" d="M176.655 482.414h20v14.935h-20z" />
-      </motion.g>
-      <motion.g>
-        <g filter="url(#as)">
-          <path
-            d="M230 146c11.044 0 20 8.956 20 20s-8.956 20-20 20-20-8.956-20-20 8.956-20 20-20"
-            fill="#fff"
-          />
+      <g>
+        <g filter="url(#f)">
+          <path fill="url(#g)" d="M442 171h40v40h-40z" />
         </g>
-        <mask
-          id="at"
-          style={{ maskType: "luminance" }}
-          maskUnits="userSpaceOnUse"
-          x={217}
-          y={159}
-          width={25}
-          height={15}
-        >
-          <path d="M241.9 159h-24.116v15H241.9z" fill="#fff" />
-        </mask>
-        <g mask="url(#at)">
-          <path
-            d="M217.853 160.269a.918.918 0 0 1 .854-1.269h4.061c.393 0 .716.231.854.577l3.231 8.077a.9.9 0 0 1 0 .692l-2.031 5.077c-.3.785-1.407.785-1.73 0z"
-            fill="url(#au)"
-          />
-          <path
-            d="M225.7 160.246c-.208-.6.23-1.246.876-1.246h3.554c.393 0 .739.254.877.6l2.954 8.077a.96.96 0 0 1 0 .623l-1.777 4.846c-.3.808-1.454.808-1.754 0z"
-            fill="url(#av)"
-          />
-          <path
-            d="M232.807 160.269a.918.918 0 0 1 .854-1.269h4.062c.392 0 .715.231.853.577l3.231 8.077a.9.9 0 0 1 0 .692l-2.031 5.077c-.3.785-1.407.785-1.73 0z"
-            fill="url(#aw)"
-          />
+        <g filter="url(#h)">
+          <path fill="url(#i)" d="M368 517h38v38h-38z" />
         </g>
-      </motion.g>
-      <motion.path d="M298.045 128.717a55.91 55.91 0 0 1 55.91 0l144.508 83.432a55.91 55.91 0 0 1 27.955 48.419v166.864a55.91 55.91 0 0 1-27.955 48.419l-144.508 83.432a55.91 55.91 0 0 1-55.91 0l-144.508-83.432a55.91 55.91 0 0 1-27.955-48.419V260.568a55.91 55.91 0 0 1 27.955-48.419z" />
+        <g filter="url(#j)">
+          <path fill="url(#k)" d="M507 374h40v40h-40z" />
+        </g>
+        <g filter="url(#x)">
+          <path fill="url(#y)" d="M109 255h40v50h-40z" />
+        </g>
+        <g filter="url(#r)">
+          <g filter="url(#s)">
+            <circle cx={187} cy={490} r={20} fill="#111323" fillOpacity={0.75} />
+            <circle cx={187} cy={490} r={19.793} stroke="#151933" strokeWidth={0.414} />
+          </g>
+          <g filter="url(#t)">
+            <circle cx={186.902} cy={489.901} r={17.143} fill="#0C0D1A" fillOpacity={0.5} />
+            <circle cx={186.902} cy={489.901} r={17.143} fill="url(#u)" fillOpacity={0.2} />
+            <circle cx={186.902} cy={489.901} r={16.936} stroke="#222336" strokeWidth={0.414} />
+          </g>
+          <g filter="url(#v)">
+            <circle cx={186.804} cy={489.801} r={14.286} fill="#1F2125" />
+          </g>
+          <path fill="url(#w)" d="M176.655 482.414h20v14.935h-20z" />
+        </g>
+        <g>
+          <g filter="url(#as)">
+            <path
+              d="M230 146c11.044 0 20 8.956 20 20s-8.956 20-20 20-20-8.956-20-20 8.956-20 20-20"
+              fill="#fff"
+            />
+          </g>
+          <mask
+            id="at"
+            style={{ maskType: "luminance" }}
+            maskUnits="userSpaceOnUse"
+            x={217}
+            y={159}
+            width={25}
+            height={15}
+          >
+            <path d="M241.9 159h-24.116v15H241.9z" fill="#fff" />
+          </mask>
+          <g mask="url(#at)">
+            <path
+              d="M217.853 160.269a.918.918 0 0 1 .854-1.269h4.061c.393 0 .716.231.854.577l3.231 8.077a.9.9 0 0 1 0 .692l-2.031 5.077c-.3.785-1.407.785-1.73 0z"
+              fill="url(#au)"
+            />
+            <path
+              d="M225.7 160.246c-.208-.6.23-1.246.876-1.246h3.554c.393 0 .739.254.877.6l2.954 8.077a.96.96 0 0 1 0 .623l-1.777 4.846c-.3.808-1.454.808-1.754 0z"
+              fill="url(#av)"
+            />
+            <path
+              d="M232.807 160.269a.918.918 0 0 1 .854-1.269h4.062c.392 0 .715.231.853.577l3.231 8.077a.9.9 0 0 1 0 .692l-2.031 5.077c-.3.785-1.407.785-1.73 0z"
+              fill="url(#aw)"
+            />
+          </g>
+        </g>
+      </g>
+      <motion.path
+        d="M298.045 128.717a55.91 55.91 0 0 1 55.91 0l144.508 83.432a55.91 55.91 0 0 1 27.955 48.419v166.864a55.91 55.91 0 0 1-27.955 48.419l-144.508 83.432a55.91 55.91 0 0 1-55.91 0l-144.508-83.432a55.91 55.91 0 0 1-27.955-48.419V260.568a55.91 55.91 0 0 1 27.955-48.419z"
+        // fill="#ff0000"
+      />
     </motion.g>
     {/* Second Layer Finish*/}
 

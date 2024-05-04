@@ -30,8 +30,8 @@ export default function SparklesPreview() {
             height={500}
             loading="lazy"
           /> */}
-        <HexasphereSvg className="h-80 w-80 md:w-96 md:h-96 lg:w-2/5 lg:h-auto object-contain " />
-        {/* <HexasphereSvg className="w-[90%] h-auto sm:w-3/4 sm:h-auto mx-auto object-contain bg-slate-300" /> */}
+        {/* <HexasphereSvg className="h-80 w-80 md:w-96 md:h-96 lg:w-2/5 lg:h-auto object-contain " /> */}
+        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain " />
         {/* </div> */}
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">

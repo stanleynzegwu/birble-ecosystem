@@ -14,11 +14,20 @@ const Header = () => {
       />
       <div className="flex flex-col lg:flex-row lg:justify-center items-center lg:gap-20">
         <div className="flex flex-col items-center max-lg:mr-60 max-md:mr-20">
-          <div className="">
-            <h1 className="capitalize text-4xl md:text-6xl lg:text-7xl">Ecosystem</h1>
+          <div className="relative">
+            <h1 className=" capitalize text-4xl sm:text-5xl md:text-7xl ">Ecosystem</h1>
             <h2 className="capitalize text-sm md:text-xl font-medium text-purple-200">
               partner's & collaborators
             </h2>
+            {/* Torus Image */}
+            <Image
+              className="hidden md:max-lg:block top-0 right-0 -translate-y-20 -translate-x-8 absolute w-20 h-20 object-contain"
+              src={"/images/torus.png"}
+              alt="torus-image"
+              width={500}
+              height={500}
+              loading="lazy"
+            />
           </div>
         </div>
         <div className="relative flex flex-col items-center md:max-lg:ml-14 md:self-end">
@@ -42,7 +51,7 @@ const Header = () => {
           />
           {/* Torus Image */}
           <Image
-            className="top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 md:translate-x-1/4  absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
+            className="md:max-lg:hidden top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 md:translate-x-1/4  absolute w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
             src={"/images/torus.png"}
             alt="torus-image"
             width={500}
