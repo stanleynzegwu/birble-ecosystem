@@ -40,7 +40,7 @@ const HexasphereSvg = ({ className }: { className: string }) => (
     <motion.g
       initial={{ rotate: 0 }}
       animate={{ rotate: -360 }}
-      transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
+      transition={{ repeat: Infinity, duration: 40, ease: "linear" }}
     >
       <motion.g filter="url(#ay)">
         <motion.g filter="url(#az)">

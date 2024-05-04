@@ -21,8 +21,8 @@ export default function SparklesPreview() {
         />
       </div>
       <div className="relative flex flex-col items-center lg:flex-row lg:min-h-screen lg:justify-center gap-6 lg:gap-16">
-        <div className="">
-          {/* <Image
+        {/* <div className="bg-red-400"> */}
+        {/* <Image
             className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
             src={"/images/hexasphere.svg"}
             alt="visual"
@@ -30,9 +30,9 @@ export default function SparklesPreview() {
             height={500}
             loading="lazy"
           /> */}
-          {/* <HexasphereSvg className="w-[90%] h-auto sm:w-3/4 sm:h-auto mx-auto object-contain" /> */}
-          <HexasphereSvg className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain" />
-        </div>
+        <HexasphereSvg className="h-80 w-80 md:w-96 md:h-96 lg:w-2/5 lg:h-auto object-contain " />
+        {/* <HexasphereSvg className="w-[90%] h-auto sm:w-3/4 sm:h-auto mx-auto object-contain bg-slate-300" /> */}
+        {/* </div> */}
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">
             The <br /> Birble <br /> Hexasphere
