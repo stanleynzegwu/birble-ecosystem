@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="relative min-h-screen flex flex-col justify-center w-full h-full z-50">
+    <header className="relative min-h-screen flex flex-col justify-center w-full h-full z-50 2xl:bg-blue-400">
       {/* Dotted Background */}
       <div className="absolute top-0 left-0 w-full h-[120%] md:h-full lg:h-[125%] -z-20 bg-transparent opacity-50 bg-[radial-gradient(#ffffff33_1px,#0a0a2900_1px)] bg-[size:20px_20px]" />
       <Image
@@ -28,6 +28,9 @@ const Header = () => {
               height={500}
               loading="lazy"
             />
+            {/* Background Blur */}
+            <div className="absolute hidden lg:block left-1/2 top-0 -translate-x-1/2 translate-y-6 w-72 h-40 rounded-full bg-violet-900 blur-4xl -z-30" />
+            <div className="absolute hidden lg:block w-56 h-48 left-0 top-0 -translate-x-1/3 translate-y-1/2 rounded-bl-full bg-blue-900 blur-5xl  -z-40" />
           </div>
         </div>
         <div className="relative flex flex-col items-center md:max-lg:ml-14 md:self-end">
