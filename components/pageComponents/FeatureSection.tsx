@@ -15,7 +15,6 @@ const FeatureSection = () => {
           we're shaping a dynamic and inclusive ecosystem where technology meets purpose.
         </p>
       </div>
-      {/* ////////// */}
       <div className="relative max-w-sm md:max-w-lg lg:max-w-2xl mx-auto p-4 border-gray-400 border-[.5px]">
         {[
           "left-0 top-0 -translate-x-1/2 -translate-y-1/2",
