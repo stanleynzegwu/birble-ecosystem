@@ -2,11 +2,10 @@
 
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
-import Image from "next/image";
 import EcosystemCarousel from "./EcosystemCarousel";
 import HexasphereSvg from "./HexasphereSvg";
 
-export default function SparklesPreview() {
+export default function HexasphereSection() {
   return (
     <section className="relative p-4 sm:p-10 flex flex-col gap-16">
       <div className="w-full absolute inset-0 h-[75%]">
@@ -21,18 +20,7 @@ export default function SparklesPreview() {
         />
       </div>
       <div className="relative flex flex-col items-center lg:flex-row lg:min-h-screen lg:justify-center gap-6 lg:gap-16">
-        {/* <div className="bg-red-400"> */}
-        {/* <Image
-            className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
-            src={"/images/hexasphere.svg"}
-            alt="visual"
-            width={500}
-            height={500}
-            loading="lazy"
-          /> */}
-        {/* <HexasphereSvg className="h-80 w-80 md:w-96 md:h-96 lg:w-2/5 lg:h-auto object-contain " /> */}
-        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain " />
-        {/* </div> */}
+        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain" />
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">
             The <br /> Birble <br /> Hexasphere
