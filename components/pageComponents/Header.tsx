@@ -33,28 +33,18 @@ const Header = () => {
             height={500}
             loading="lazy"
           />
-
-          {/* Pyramid Image */}
-          <Image
-            className="absolute bottom-0 left-0 xs:-translate-x-6 sm:-translate-x-8 md:-translate-x-20 max-xs:translate-y-1 max-md:translate-y-4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
-            src={"/images/pyramid.png"}
-            alt="pyramid-image"
-            width={500}
-            height={500}
-            loading="lazy"
-          />
-          {/* Torus Image */}
-          <Image
-            className="absolute md:max-lg:hidden top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 md:translate-x-1/4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain"
-            src={"/images/torus.png"}
-            alt="torus-image"
-            width={500}
-            height={500}
-            loading="lazy"
-          />
-
-          {/* Header Blurred Assets */}
+          {/* Pyramid,Torus & Header Blurred Assets */}
           {[
+            {
+              className:
+                "absolute bottom-0 left-0 xs:-translate-x-6 sm:-translate-x-8 md:-translate-x-20 max-xs:translate-y-1 max-md:translate-y-4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain",
+              assetName: "pyramid",
+            },
+            {
+              className:
+                "absolute md:max-lg:hidden top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 md:translate-x-1/4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain",
+              assetName: "torus",
+            },
             {
               className:
                 "absolute -top-10 md:top-0 right-4 xs:right-0 max-md:translate-x-1/2 -translate-y-full md:-translate-y-3/4 lg:-translate-y-1/3 w-16 h-16 xs:w-20 xs:h-20 md:w-28 md:h-28 object-contain",
@@ -75,7 +65,7 @@ const Header = () => {
               key={index}
               className={className}
               src={`/images/${assetName}.png`}
-              alt={`blur-${assetName}`}
+              alt={`${assetName}`}
               width={500}
               height={500}
             />

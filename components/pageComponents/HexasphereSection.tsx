@@ -7,7 +7,7 @@ import HexasphereSvg from "./HexasphereSvg";
 
 export default function HexasphereSection() {
   return (
-    <section className="relative p-4 sm:p-10 flex flex-col gap-16">
+    <section className="relative p-4 xs:px-10 sm:p-10 flex flex-col gap-16">
       <div className="w-full absolute inset-0 h-[75%]">
         <SparklesCore
           id="tsparticlesfullpage"

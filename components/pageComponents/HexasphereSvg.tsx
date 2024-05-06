@@ -8,7 +8,6 @@ const HexasphereSvg = ({ className }: { className: string }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    // className="h-80 w-80 md:w-96 md:h-96 lg:w-96 lg:h-96 object-contain"
     className={className}
   >
     <motion.path
