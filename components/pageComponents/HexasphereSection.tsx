@@ -20,7 +20,7 @@ export default function HexasphereSection() {
         />
       </div>
       <div className="relative flex flex-col items-center lg:flex-row lg:min-h-screen lg:justify-center gap-6 lg:gap-16">
-        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain" />
+        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain z-10" />
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">
             The <br /> Birble <br /> Hexasphere
