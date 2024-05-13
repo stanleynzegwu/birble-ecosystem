@@ -17,7 +17,7 @@ const EcosystemCarousel = () => {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96">
                 <Image
-                  className="absolute top-0 left-0 w-16 h-16 md:w-20 md:h-20 -translate-y-1/2 translate-x-1/2 z-50"
+                  className="absolute top-0 left-0 w-16 h-16 2xl:w-20 2xl:h-20 -translate-y-1/2 translate-x-1/2 z-50"
                   src={`/icons/${iconPath}.png`}
                   alt={iconPath}
                   width={50}

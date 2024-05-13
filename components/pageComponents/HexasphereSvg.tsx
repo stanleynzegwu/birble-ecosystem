@@ -1,9 +1,10 @@
-import { motion } from "framer-motion";
 declare module "react" {
   interface CSSProperties {
     "--offset"?: string;
   }
 }
+
+import { motion } from "framer-motion";
 
 const HexasphereSvg = ({ className }: { className: string }) => {
   const transition = {

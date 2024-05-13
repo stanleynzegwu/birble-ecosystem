@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const CallToAction = () => {
   return (
     <section className="relative min-h-screen w-full">
-      <div className="w-full h-screen min-h-[600px] lg:min-h-[500px] px-4 xs:px-10 py-10 lg:p-0 max-lg:max-w-xl lg:w-[80%] mx-auto flex flex-col justify-center ">
+      <div className="w-full h-screen min-h-[600px] lg:min-h-[500px] px-4 xs:px-10 py-10 lg:p-0 max-lg:max-w-xl lg:w-[80%] mx-auto flex flex-col justify-center">
         <div className="relative group flex flex-col max-lg:justify-end lg:flex-row rounded-3xl h-full lg:h-3/4 p-3 sm:p-6 w-full z-20">
           <div className="bg-[url('../public/images/bgMid.png')] lg:bg-[url('../public/images/bgLarge.png')] absolute -z-10 rounded-3xl inset-0 bg-cover object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out" />
           <div className="p-4 sm:p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-600 flex flex-col justify-end">
