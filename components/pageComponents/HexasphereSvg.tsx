@@ -87,8 +87,10 @@ const HexasphereSvg = ({ className }: { className: string }) => {
         <motion.g
           filter="url(#z)"
           transform="translate(-610,-271)"
-          initial={{ "--offset": "-11.11%", rotate: 0 }}
-          animate={{ "--offset": "-111.11%", rotate: 360 }}
+          // initial={{ "--offset": "-11.11%", rotate: 0 }}
+          // animate={{ "--offset": "-111.11%", rotate: 360 }}
+          initial={{ "--offset": "-15%", rotate: 0 }}
+          animate={{ "--offset": "-115%", rotate: 360 }}
           transition={transition}
           style={{
             offsetDistance: "var(--offset)",
@@ -146,8 +148,10 @@ const HexasphereSvg = ({ className }: { className: string }) => {
         <motion.g
           filter="url(#H)"
           transform="translate(-570,-540)"
-          initial={{ "--offset": "-33.33%", rotate: 0 }}
-          animate={{ "--offset": "-133.33%", rotate: 360 }}
+          // initial={{ "--offset": "-33.33%", rotate: 0 }}
+          // animate={{ "--offset": "-133.33%", rotate: 360 }}
+          initial={{ "--offset": "-36%", rotate: 0 }}
+          animate={{ "--offset": "-136%", rotate: 360 }}
           transition={transition}
           style={{
             offsetDistance: "var(--offset)",
@@ -239,8 +243,10 @@ const HexasphereSvg = ({ className }: { className: string }) => {
         <motion.g
           filter="url(#ax)"
           transform="translate(-480,-580)"
-          initial={{ "--offset": "-66.67%", rotate: 0 }}
-          animate={{ "--offset": "-166.67%", rotate: 360 }}
+          // initial={{ "--offset": "-66.67%", rotate: 0 }}
+          // animate={{ "--offset": "-166.67%", rotate: 360 }}
+          initial={{ "--offset": "-68%", rotate: 0 }}
+          animate={{ "--offset": "-168%", rotate: 360 }}
           transition={transition}
           style={{
             offsetDistance: "var(--offset)",
@@ -305,8 +311,8 @@ const HexasphereSvg = ({ className }: { className: string }) => {
         <motion.g
           filter="url(#N)"
           transform="translate(-230,-620)"
-          initial={{ "--offset": "-88.89%", rotate: 0 }}
-          animate={{ "--offset": "-188.89%", rotate: 360 }}
+          initial={{ "--offset": "-90%", rotate: 0 }}
+          animate={{ "--offset": "-190%", rotate: 360 }}
           transition={transition}
           style={{
             offsetDistance: "var(--offset)",

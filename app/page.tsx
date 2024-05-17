@@ -5,7 +5,7 @@ import HexasphereSection from "@/components/pageComponents/HexasphereSection";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen flex flex-col gap-6 sm:gap-6 md:gap-8 lg:gap-10">
+    <main className="w-full min-h-screen flex flex-col gap-6 md:gap-8 lg:gap-10">
       <Header />
       <FeatureSection />
       <HexasphereSection />

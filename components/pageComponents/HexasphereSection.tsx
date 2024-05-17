@@ -4,6 +4,7 @@ import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 import EcosystemCarousel from "./EcosystemCarousel";
 import HexasphereSvg from "./HexasphereSvg";
+import Image from "next/image";
 
 export default function HexasphereSection() {
   return (
@@ -19,8 +20,15 @@ export default function HexasphereSection() {
           particleColor="#FFFFFF"
         />
       </div>
+      {/* <Image
+        className="absolute object-cover bg-cover inset-0 h-[35%] w-full"
+        src={"/images/FadeOut.svg"}
+        alt="blur"
+        width={500}
+        height={500}
+      /> */}
       <div className="relative flex flex-col gap-6 items-center lg:flex-row lg:min-h-screen lg:justify-center lg:gap-16">
-        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain" />
+        <HexasphereSvg className="h-auto w-full max-md:max-w-md md:max-lg:max-w-lg lg:w-2/5 lg:h-auto object-contain overflow-visible" />
         <div className="max-w-sm">
           <h2 className="mb-4 lg:mb-5">
             The <br /> Birble <br /> Hexasphere

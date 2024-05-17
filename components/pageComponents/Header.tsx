@@ -20,8 +20,8 @@ const Header = () => {
               loading="lazy"
             />
             {/* Background Blur */}
-            <div className="absolute hidden lg:block left-1/2 top-0 -translate-x-1/2 translate-y-6 w-72 h-40 rounded-full bg-violet-900 blur-4xl -z-30" />
-            <div className="absolute hidden lg:block w-56 h-48 left-0 top-0 -translate-x-1/3 translate-y-1/2 rounded-bl-full bg-blue-900 blur-5xl  -z-40" />
+            <div className="absolute hidden lg:block left-1/2 top-0 -translate-x-1/2 translate-y-6 w-72 2lg:w-80 h-40 2lg:h-56 rounded-full bg-violet-900 blur-4xl 2lg:blur-6xl -z-30" />
+            <div className="absolute hidden lg:block w-56 2lg:w-96 h-48 2lg:h-60 left-0 top-0 -translate-x-1/3 2lg:-translate-x-1/2 translate-y-1/2 rounded-bl-full bg-blue-900 blur-5xl 2lg:blur-7xl -z-40 2lg:opacity-80" />
           </div>
         </div>
         <div className="relative flex flex-col items-center md:max-lg:ml-14 lg:w-1/3 md:self-end">
@@ -82,11 +82,11 @@ const Header = () => {
         />
       </div>
       {/* Dotted Background */}
-      <div className="absolute top-0 left-0 w-full h-[120%] md:h-full lg:h-[125%] -z-20 bg-transparent opacity-50 bg-[radial-gradient(#ffffff33_1px,#0a0a2900_1px)] bg-[size:20px_20px]" />
+      <div className="bg-[url('../public/images/dottedBg.png')] h-[120%] md:h-full lg:h-[125%] absolute -z-20 inset-0 bg-cover object-cover" />
       {/* Background Blur */}
-      <div className="absolute md:hidden lg:inline left-0 top-0 w-48 h-40 md:w-60 md:h-40 -translate-y-1/2 -translate-x-1/4 rounded-b-full bg-blur-purple blur-3xl overflow-hidden -z-10" />
-      <div className="absolute right-0 top-0 -translate-y-1/2 w-36 h-40 md:w-56 md:h-48  rounded-l-full bg-violet-900 blur-3xl overflow-hidden -z-10" />
-      <div className="absolute hidden lg:block right-0 bottom-0 -translate-y-full -translate-x-1/2 w-32 h-32 rounded-full bg-blue-900 overflow-hidden blur-6xl -z-10" />
+      <div className="absolute md:hidden lg:inline left-0 top-0 w-48 h-40 md:w-60 2lg:w-80 md:h-40 -translate-y-1/2 -translate-x-1/4 rounded-b-full bg-blur-purple blur-3xl 2lg:blur-4xl overflow-hidden -z-30" />
+      <div className="absolute right-0 top-0 -translate-y-1/2 w-36 h-40 md:w-56 2lg:w-72 md:h-48  rounded-l-full bg-violet-900 blur-3xl 2lg:blur-4xl overflow-hidden -z-30" />
+      <div className="absolute hidden lg:block right-0 bottom-0 -translate-y-full -translate-x-1/2 w-32 h-32 rounded-full bg-blue-900 overflow-hidden blur-6xl -z-30" />
     </header>
   );
 };
