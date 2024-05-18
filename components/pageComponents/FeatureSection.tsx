@@ -53,7 +53,7 @@ import Image from "next/image";
 
 const FeatureSection = () => {
   return (
-    <section className="relative p-4 xs:px-10 sm:p-10  flex flex-col justify-center gap-32">
+    <section className="relative p-4 xs:px-10 sm:p-10 flex flex-col justify-center gap-32">
       <div className="max-w-sm md:max-w-md 2xl:max-w-2xl space-y-4 mx-auto ">
         <h3 className="px-2 text-center text-xl md:text-2xl leading-normal md:leading-snug">
           Birble AI is the corner stone <br />

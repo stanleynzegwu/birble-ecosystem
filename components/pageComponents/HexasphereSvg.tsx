@@ -965,8 +965,10 @@ const HexasphereSvg = ({ className }: { className: string }) => {
           </motion.g>
           <motion.g
             filter="url(#h)"
-            initial={{ "--offset": "16.67%", rotate: 0 }}
-            animate={{ "--offset": " 116.67%", rotate: 360 }}
+            // initial={{ "--offset": "16.67%", rotate: 0 }}
+            // animate={{ "--offset": " 116.67%", rotate: 360 }}
+            initial={{ "--offset": "10.67%", rotate: 0 }}
+            animate={{ "--offset": " 110.67%", rotate: 360 }}
             transition={SECONDLAYER_TRANSITION}
             style={{
               offsetDistance: "var(--offset)",
@@ -1004,8 +1006,8 @@ const HexasphereSvg = ({ className }: { className: string }) => {
           </motion.g>
           <motion.g
             filter="url(#r)"
-            initial={{ "--offset": "66.67%", rotate: 0 }}
-            animate={{ "--offset": "166.67%", rotate: 360 }}
+            initial={{ "--offset": "69%", rotate: 0 }}
+            animate={{ "--offset": "169%", rotate: 360 }}
             transition={SECONDLAYER_TRANSITION}
             style={{
               offsetDistance: "var(--offset)",
