@@ -104,7 +104,7 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply leading-none text-5xl md:text-[56px] lg:text-[90px]  xl:text-[104px]  tracking-tight scroll-m-20 font-bold;
+    @apply leading-none text-5xl md:text-[56px] lg:text-[90px] xl:text-[104px] tracking-tight scroll-m-20 font-bold;
   }
   h2 {
     @apply pb-2 leading-tight text-3xl md:text-[32px] lg:text-[44px] xl:text-5xl font-semibold tracking-tight scroll-m-20 first:mt-0;
@@ -116,7 +116,7 @@
     @apply leading-tight 2xl:leading-normal text-xl lg:text-[28px] xl:text-[32px] font-medium tracking-normal scroll-m-20;
   }
   h5 {
-    @apply text-lg lg:text-2xl leading-normal 2xl:leading-tight  font-medium tracking-normal scroll-m-20;
+    @apply text-lg lg:text-2xl leading-normal 2xl:leading-tight font-medium tracking-normal scroll-m-20;
   }
   h6 {
     @apply text-base lg:text-lg leading-relaxed tracking-wide  font-medium;
