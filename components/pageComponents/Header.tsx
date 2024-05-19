@@ -185,7 +185,7 @@ const Header = () => {
       <div className="bg-[url('../public/images/dottedBg.png')] h-screen absolute -z-20 inset-0 bg-cover object-cover" />
       {/* Background Blur */}
       <div className="absolute md:hidden lg:inline left-0 top-0 w-48 h-40 md:w-60 2lg:w-80 md:h-40 -translate-y-1/2 -translate-x-1/4 rounded-b-full bg-blur-purple blur-3xl 2lg:blur-4xl overflow-hidden -z-30" />
-      <div className="absolute right-0 top-0 -translate-y-1/2 w-36 h-40 md:w-56 2lg:w-72 md:h-48  rounded-l-full bg-violet-900 blur-3xl 2lg:blur-4xl overflow-hidden -z-20" />
+      <div className="absolute right-0 top-0 -translate-y-1/2 w-36 h-40 md:h-2/5 md:w-56 2lg:w-72 rounded-l-full bg-violet-900 blur-2xl md:blur-3xl 2lg:blur-4xl overflow-hidden -z-20" />
       <div className="absolute hidden lg:block right-0 bottom-0 -translate-y-full -translate-x-1/2 w-32 h-32 rounded-full bg-blue-900 overflow-hidden blur-6xl -z-30" />
     </header>
   );

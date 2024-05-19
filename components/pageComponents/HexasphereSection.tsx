@@ -48,7 +48,7 @@ import Image from "next/image";
 
 export default function HexasphereSection() {
   return (
-    <section className="relative p-4 xs:px-10 sm:p-10 flex flex-col gap-16 z-0">
+    <section className="relative p-4 xs:px-10 sm:p-10 flex flex-col gap-24 lg:gap-20 z-0">
       {/* <div className="w-full absolute inset-0 h-[75%]"> */}
       <div className="w-full absolute inset-0 h-[75%] opacity-70">
         <SparklesCore
