@@ -199,7 +199,7 @@ const Header = () => {
       <div className="relative mt-20 md:mt-32 max-lg:mb-20 flex flex-col lg:flex-row lg:justify-center items-center max-md:gap-4 lg:gap-20">
         <div className="flex flex-col items-center max-lg:mr-60 max-md:mr-20">
           <div className="relative">
-            <h1 className="capitalize text-[46px] md:text-[90px]">Ecosystem</h1>
+            <h1 className="capitalize md:leading-tight text-[46px] md:text-[90px]">Ecosystem</h1>
             <h5 className="capitalize md:text-2xl text-purple-200">partners & collaborators</h5>
             {/* Torus Image */}
             <Image
