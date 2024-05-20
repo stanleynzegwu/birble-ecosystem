@@ -196,7 +196,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header className="relative flex flex-col justify-center w-full z-20">
-      <div className="relative mt-20 md:mt-32 max-lg:mb-20 flex flex-col lg:flex-row lg:justify-center items-center lg:gap-20">
+      <div className="relative mt-20 md:mt-32 max-lg:mb-20 flex flex-col lg:flex-row lg:justify-center items-center max-md:gap-4 lg:gap-20">
         <div className="flex flex-col items-center max-lg:mr-60 max-md:mr-20">
           <div className="relative">
             <h1 className="capitalize text-[46px] md:text-[90px]">Ecosystem</h1>
@@ -246,12 +246,12 @@ const Header = () => {
             },
             {
               className:
-                "absolute md:max-lg:hidden top-0 right-0 md:left-0 -translate-y-28 sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-20 -translate-x-1/2 md:translate-x-1/4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain",
+                "absolute md:max-lg:hidden -top-2 md:top-0 right-0 md:left-0 -translate-y-28 md:-translate-y-32 lg:-translate-y-20 -translate-x-1/2 md:translate-x-1/4 w-12 h-12 xs:w-16 xs:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain",
               assetName: "torus",
             },
             {
               className:
-                "absolute -top-14 xs:-top-8 md:top-0 -right-4 xs:-right-6 md:right-0 max-md:-translate-x-1/4 -translate-y-full md:-translate-y-3/4 lg:-translate-y-1/3 w-16 h-16 xs:w-24 xs:h-24 md:w-28 md:h-28 object-contain",
+                "absolute -top-16 xs:-top-10 md:top-0 -right-4 xs:-right-6 md:right-0 max-md:-translate-x-1/4 -translate-y-full md:-translate-y-3/4 lg:-translate-y-1/3 w-16 h-16 xs:w-24 xs:h-24 md:w-28 md:h-28 object-contain",
               assetName: "headerAsset1",
             },
             {
