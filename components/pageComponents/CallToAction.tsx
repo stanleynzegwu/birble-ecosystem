@@ -13,7 +13,7 @@ const CallToAction = () => {
               <div className="">
                 <h3 className="max-md:text-xl md:text-3xl pb-3 lg:p-2">
                   Bring your space to live with{" "}
-                  <span className="font-bold lg:font-extrabold">Birble AI</span>
+                  <span className="font-semibold lg:font-bold">Birble AI</span>
                 </h3>
                 <small>
                   Stop holding a wish sign and start unboxing that special gift, from that special
