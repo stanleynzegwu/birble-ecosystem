@@ -85,10 +85,9 @@ const EcosystemCarousel = () => {
           {BIRBLEAI_PARTNERS.map(({ iconPath, name, about }, index) => (
             <CarouselItem
               key={index}
-              // className="flex justify-center lg:basis-1/2 xl:basis-1/3 shrink grow "
-              className="flex justify-center md:basis-1/2 lg:basis-1/3 2lg:basis-1/4 2xl:basis-1/5"
+              className="flex justify-center md:basis-1/2 lg:basis-1/3 2lg:basis-1/4"
             >
-              <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96 w-80">
+              <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96 w-96">
                 <Image
                   className="absolute top-0 left-0 w-16 h-16 2xl:w-20 2xl:h-20 -translate-y-1/2 translate-x-1/2 z-50"
                   src={`/icons/${iconPath}.png`}
