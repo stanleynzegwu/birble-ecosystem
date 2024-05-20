@@ -87,7 +87,7 @@ const EcosystemCarousel = () => {
               key={index}
               className="flex justify-center md:basis-1/2 lg:basis-1/3 2lg:basis-1/4"
             >
-              <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue p-6 h-96 w-96">
+              <div className="relative space-y-6 rounded-3xl bg-darkGrayishBlue bg-opacity-90 p-6 h-96 w-96">
                 <Image
                   className="absolute top-0 left-0 w-16 h-16 2xl:w-20 2xl:h-20 -translate-y-1/2 translate-x-1/2 z-50"
                   src={`/icons/${iconPath}.png`}
@@ -103,8 +103,8 @@ const EcosystemCarousel = () => {
         </CarouselContent>
         {/* Buttons */}
         <div className="max-w-sm mx-auto space-x-4">
-          <CarouselPrevious className="w-12 h-12" />
-          <CarouselNext className="w-12 h-12" />
+          <CarouselPrevious className="w-12 h-12 hover:bg-darkGrayishBlue" />
+          <CarouselNext className="w-12 h-12 hover:bg-darkGrayishBlue" />
         </div>
       </div>
       {/* Background Blur */}

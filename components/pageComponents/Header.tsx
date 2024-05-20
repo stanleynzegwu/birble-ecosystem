@@ -225,7 +225,6 @@ const Header = () => {
               alt="visual"
               width={500}
               height={500}
-              loading="lazy"
             />
             {/* Mobile Only Header Blurred Asset */}
             <Image
