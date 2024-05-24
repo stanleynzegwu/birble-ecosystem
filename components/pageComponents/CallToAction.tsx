@@ -8,7 +8,7 @@ const CallToAction = () => {
       <div className="w-full h-screen min-h-[650px] lg:min-h-[500px] max-h-[700px] md:max-h-[900px] px-4 xs:px-10 py-10 lg:p-0 max-md:max-w-md max-lg:max-w-xl lg:w-[80%] mx-auto flex flex-col justify-center">
         <div className="relative group flex flex-col max-lg:justify-end lg:flex-row rounded-3xl h-full lg:h-3/4 p-3 sm:p-6 lg:p-8 2lg:p-10 w-full z-20">
           {/* <div className="bg-[url('../public/images/Dark.svg')] lg:bg-[url('../public/images/Dark.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out" /> */}
-          <div className="bg-[url('../public/images/Dark.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover group-hover:bg-[url('../public/images/light.svg')] transition-all duration-10 linear" />
+          <div className="bg-[url('../public/images/Dark.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover group-hover:bg-[url('../public/images/Light.svg')] transition-all duration-10 linear" />
           <div className="p-4 sm:p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-600 flex flex-col justify-end">
             <div className="min-h-[60%] flex flex-col gap-6 xs:gap-10 justify-between max-w-sm lg:max-w-md">
               <div className="">
