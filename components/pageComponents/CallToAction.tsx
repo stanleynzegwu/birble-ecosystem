@@ -7,8 +7,8 @@ const CallToAction = () => {
     <section className="relative lg:min-h-screen w-full">
       <div className="w-full h-screen min-h-[650px] lg:min-h-[500px] max-h-[700px] md:max-h-[900px] px-4 xs:px-10 py-10 lg:p-0 max-md:max-w-md max-lg:max-w-xl lg:w-[80%] mx-auto flex flex-col justify-center">
         <div className="relative group flex flex-col max-lg:justify-end lg:flex-row rounded-3xl h-full lg:h-3/4 p-3 sm:p-6 lg:p-8 2lg:p-10 w-full z-20">
-          {/* <div className="bg-[url('../public/images/bgLarge.svg')] lg:bg-[url('../public/images/bgLarge.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out" /> */}
-          <div className="bg-[url('../public/images/Dark.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover group-hover:bg-[url('../public/images/Light.svg')] transition-all duration-10 linear" />
+          <div className="bg-[url('../public/images/Dark.svg')] lg:bg-[url('../public/images/Light.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover grayscale group-hover:grayscale-0 transition-all duration-500 ease-in-out" />
+          {/* <div className="bg-[url('../public/images/Dark.svg')] absolute -z-10 rounded-3xl inset-0 bg-cover group-hover:bg-[url('../public/images/Light.svg')] transition-all duration-10 linear" /> */}
           <div className="relative p-4 sm:p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-900 flex flex-col justify-end overflow-hidden">
             {/* <div className="p-4 sm:p-6 md:p-8 lg:p-10 h-1/2 w-full lg:w-1/2 lg:h-full rounded-3xl bg-purple-600 flex flex-col justify-end"> */}
             <div className="absolute bottom-0 left-0 h-1/4 w-2/6 rounded-tr-full bg-gradient-to-bl from-purple-900 to-purple-300 blur-4xl z-20" />
